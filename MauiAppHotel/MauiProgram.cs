@@ -13,6 +13,10 @@ namespace MauiAppHotel
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    //adicionadas
+                    fonts.AddFont("AncizarSerif-Bold.ttf", "AncizarSerifbold");
+                    fonts.AddFont("AncizarSerif-Light.ttf", "AncizarSeriflight");
+                    fonts.AddFont("AncizarSerif-Regular.ttf", "AncizarSerif");
                 });
 
 #if DEBUG

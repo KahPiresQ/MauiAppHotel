@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.SaibaMais"
+             Title="Sobre o aplicativo"
+             BackgroundColor="{StaticResource Gray200}">
+
+    <ScrollView>
+        <Grid>
+            <Frame BackgroundColor="{StaticResource Gray100}"
+                   CornerRadius="20" 
+                   Padding="20" 
+                   HasShadow="True"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Margin="20"
+                   MaximumWidthRequest="400">
+                <VerticalStackLayout Spacing="20">
+
+                    <Label Text="Informações do Desenvolvedor"
+                           FontSize="24"
+                           HorizontalOptions="Center"        
+                           FontFamily="AncisarSerif"
+                           FontAttributes="Bold"
+                           TextColor="{StaticResource Primary}" />
+
+                    <Label Text="Desenvolvedor: Karina Pires" FontSize="18" />
+                    <Label Text="Contato: (11) XXXXX-XXXX" FontSize="18" />
+                    <Label Text="E-mail: Karina.pires5@etec.sp.gov.br" FontSize="18" />
+                    <Label Text="GitHub: https://github.com/" 
+                           FontSize="18"
+                           TextColor="Blue" />
+                    <Label Text="Ano de Desenvolvimento: 2025"
+                           FontSize="18" />
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
