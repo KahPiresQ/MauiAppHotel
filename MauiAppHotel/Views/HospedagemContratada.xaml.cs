@@ -6,4 +6,18 @@ public partial class HospedagemContratada : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void OnVoltarContratada(object sender, EventArgs e)
+    {
+		try
+		{
+			Navigation.PopAsync();
+
+		}catch (Exception ex)
+		{
+			DisplayAlert("ops", ex.Message, "Ok");
+
+		}
+
+    }
 }

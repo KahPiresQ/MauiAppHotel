@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.SaibaMais"
              Title="Sobre o aplicativo"
-             BackgroundColor="{StaticResource Gray200}">
+             BackgroundColor="#FAF8F6">
 
     <ScrollView>
         <Grid>
-            <Frame BackgroundColor="{StaticResource Gray100}"
+            <Frame BackgroundColor="White"
                    CornerRadius="20" 
                    Padding="20" 
                    HasShadow="True"
@@ -22,19 +22,29 @@
                            HorizontalOptions="Center"        
                            FontFamily="AncisarSerif"
                            FontAttributes="Bold"
-                           TextColor="{StaticResource Primary}" />
+                           TextColor="#2C3E50" />
 
-                    <Label Text="Desenvolvedor: Karina Pires" FontSize="18" />
-                    <Label Text="Contato: (11) XXXXX-XXXX" FontSize="18" />
-                    <Label Text="E-mail: Karina.pires5@etec.sp.gov.br" FontSize="18" />
-                    <Label Text="GitHub: https://github.com/" 
+                    <Label Text="Desenvolvedor: Karina Pires"
                            FontSize="18"
-                           TextColor="Blue" />
+                           TextColor="#2C3E50" />
+
+                    <Label Text="Contato: (11) XXXXX-XXXX"
+                           FontSize="18"
+                           TextColor="#2C3E50" />
+
+                    <Label Text="E-mail: Karina.pires5@etec.sp.gov.br"
+                           FontSize="18"
+                           TextColor="#2C3E50" />
+
+                    <Label Text="GitHub: https://github.com/"
+                           FontSize="18"
+                           TextColor="#3B6978" />
+
                     <Label Text="Ano de Desenvolvimento: 2025"
-                           FontSize="18" />
+                           FontSize="18"
+                           TextColor="#2C3E50" />
                 </VerticalStackLayout>
             </Frame>
         </Grid>
     </ScrollView>
-
 </ContentPage>

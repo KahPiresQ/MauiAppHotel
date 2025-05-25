@@ -4,7 +4,9 @@ namespace MauiAppHotel.Views
     {
         public SaibaMais()
         {
-            InitializeComponent(); // Mantém isso
+            InitializeComponent();
+
         }
+        
     }
 }
